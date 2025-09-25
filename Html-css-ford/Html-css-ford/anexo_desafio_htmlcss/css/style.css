@@ -21,7 +21,7 @@
 }
 
 .link_menu{
-	font-family: "Krona One", sans-serif;
+  font-family: "Krona One", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding: 1em;
@@ -29,14 +29,19 @@
 }
 
 .apresentacao_conteudo{
-	margin-left: 20%;
+	margin-left: 25vh;
 	margin-top: 3em;
 	
 }
 
+.video_apresentacao{
+	width: 100%;
+	height: 25em;
+}
+
 .paragrafo-conteudo{
 	text-align: center;
-	margin-right: 30%;
+	margin-right: 30vh;
 	font-style: italic;
 }
 
@@ -76,8 +81,31 @@
 
 .lista__imagens{
 
-display: flex;
+	display: flex;
 	justify-content: center;
 	margin-top: 4em;
 	gap: 6em;
+}
+
+
+.apresentacao_conteudo_contato{
+	display: flex;
+	justify-content: center;
+	margin-top: 10vh;
+}
+
+
+
+.formulario_contato{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	margin-left: 9em;
+	
+	
+}	
+
+.formulario__elemento{
+	height: 2.3em;
+	border-radius: 10px	;
 }
